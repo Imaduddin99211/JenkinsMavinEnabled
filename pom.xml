@@ -47,15 +47,19 @@
 	<plugins>
 		<plugin>
 			<groupId>org.apache.maven.plugins</groupId>
-			<artifactId>maven-jar-plugin</artifactId>
-			<version>3.7</version>
-			<configuration>
-			<rulesets>
-				<ruleset>/ruleset/basic.xml</ruleset>
-			</rulesets>
-			</configuration>
-			
+			 <artifactId>maven-jar-plugin</artifactId>
+			  <version>3.7</version>
+			   <configuration>
+			    <rulesets>
+				 <ruleset>/ruleset/basic.xml</ruleset>
+			    </rulesets>
+			   </configuration>
 		</plugin>
+		 <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-jxr-plugin</artifactId>
+            <version>2.3</version>
+        </plugin>
 	</plugins>
 </reporting>
 
