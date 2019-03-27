@@ -42,4 +42,22 @@
     </plugin>
   </plugins>
 </build>  
+
+<reporting>
+	<plugins>
+		<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-jar-plugin</artifactId>
+			<version>3.7</version>
+			<configuration>
+			<rulesets>
+				<ruleset>/ruleset/basic.xml</ruleset>
+			</rulesets>
+			</configuration>
+			
+		</plugin>
+	</plugins>
+</reporting>
+
+
 </project>
